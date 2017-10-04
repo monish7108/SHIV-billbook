@@ -1,0 +1,80 @@
+.color-bar{
+	background-color: #acff2d;
+}
+.header-beginning .horizontal-bar{
+	width: 100%;
+	line-height: 40px;
+}
+.header-beginning .horizontal-bar .color-bar{
+	width: 100%;
+}
+
+.header-beginning .logo{
+	margin-top: 20px;
+}
+.header-beginning .logo .left-div, .page-header .left-div{
+	float: left;
+	min-height: 70px;
+	width: 70%;
+}
+.header-beginning .logo .right-div{
+	min-width: 20%;
+	border: 2px solid #43483a;
+	padding: 20px;
+	float: right;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+.header-beginning .header-main-content{
+	padding-top: 20px;
+	clear: both;
+}
+
+.header-beginning .header-main-content .client-info .vertical-bar{
+	height: 100%;
+	width: 25px;
+	float: left;
+}
+.header-beginning .header-main-content .client-info{
+	height: 150px;
+	float: left;
+	width: 75%;
+}
+.header-beginning .header-main-content .client-info ul{
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.header-beginning .header-main-content .address{
+	height: 150px;
+	float: right;
+	width: 20%;
+}
+
+.page-header{
+	clear: both;
+	min-height: 100px;
+}
+.page-header .invoice-detail{
+	float: right;
+	min-width: 20%
+}
+
+.page-content{
+	width: 100%;
+}
+.page-content .bill-items{
+	width: 100%;
+}
+.page-content table{
+	width: 100%;
+}
+.page-content tr{
+	border-collapse: collapse;
+	border-bottom: 1px solid #43483a;
+}
+.page-content .bill-items td{
+	width: 25%
+}
